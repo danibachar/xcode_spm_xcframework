@@ -20,7 +20,6 @@
 		2737064C29C91BC800BAD57A /* C.h in Headers */ = {isa = PBXBuildFile; fileRef = 2737064B29C91BC800BAD57A /* C.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2737064F29C91BC800BAD57A /* C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2737064929C91BC800BAD57A /* C.framework */; };
 		2737065029C91BC800BAD57A /* C.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2737064929C91BC800BAD57A /* C.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		278A6D3A29CE566A00A0A95E /* A in Frameworks */ = {isa = PBXBuildFile; productRef = 278A6D3929CE566A00A0A95E /* A */; };
 		27BAF2EB29CB96C30053A2E8 /* B in Frameworks */ = {isa = PBXBuildFile; productRef = 27BAF2EA29CB96C30053A2E8 /* B */; };
 /* End PBXBuildFile section */
 
@@ -108,7 +107,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				278A6D3A29CE566A00A0A95E /* A in Frameworks */,
 				270DF5DD29CA270C001DDBCA /* B in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,7 +287,6 @@
 			name = C;
 			packageProductDependencies = (
 				270DF5DC29CA270C001DDBCA /* B */,
-				278A6D3929CE566A00A0A95E /* A */,
 			);
 			productName = C;
 			productReference = 2737064929C91BC800BAD57A /* C.framework */;
@@ -818,10 +815,6 @@
 		270DF5DC29CA270C001DDBCA /* B */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = B;
-		};
-		278A6D3929CE566A00A0A95E /* A */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = A;
 		};
 		27BAF2EA29CB96C30053A2E8 /* B */ = {
 			isa = XCSwiftPackageProductDependency;
