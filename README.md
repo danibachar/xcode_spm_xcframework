@@ -61,5 +61,7 @@ We found several solution for this problem
 2. checkout branch `remove-excplict-a-linking-from-c-only` 
    In this branch we explictly linking the `A` module to both the `C` XCFramework and the main `Test` app.
    This also results in a solution to our problem and personaly I think its better as it explictly linking all the relvant frameworks
-3. 
+3. checkout branch `implict-linking-c-only`
+   In this branch we removed `A` and `B` modules linking from the main app `Test` and linked only against `C`
+   `C` can be linked against both `A` and `B` or only `B` (in this branch we only link `C` against `B`).
    
