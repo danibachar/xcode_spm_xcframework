@@ -58,4 +58,8 @@ We found several solution for this problem
    In this branch we have removed the expplicit linking of the `A` module from both the `C` XCFramework and the main app `Test` target
    This result in removal of the warning and fix of our static var being init twice issue.
    Never the less this solution is far from idle is we implict import module `A` into the application and into the `C` XCFramework.
-2. 
+2. checkout branch `remove-excplict-a-linking-from-c-only` 
+   In this branch we explictly linking the `A` module to both the `C` XCFramework and the main `Test` app.
+   This also results in a solution to our problem and personaly I think its better as it explictly linking all the relvant frameworks
+3. 
+   
