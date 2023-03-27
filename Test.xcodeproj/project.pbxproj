@@ -20,9 +20,6 @@
 		2737064C29C91BC800BAD57A /* C.h in Headers */ = {isa = PBXBuildFile; fileRef = 2737064B29C91BC800BAD57A /* C.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2737064F29C91BC800BAD57A /* C.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2737064929C91BC800BAD57A /* C.framework */; };
 		2737065029C91BC800BAD57A /* C.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2737064929C91BC800BAD57A /* C.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		278A6D4029CE637000A0A95E /* A in Frameworks */ = {isa = PBXBuildFile; productRef = 278A6D3F29CE637000A0A95E /* A */; };
-		278A6D4229CE638700A0A95E /* A in Frameworks */ = {isa = PBXBuildFile; productRef = 278A6D4129CE638700A0A95E /* A */; };
-		27BAF2EB29CB96C30053A2E8 /* B in Frameworks */ = {isa = PBXBuildFile; productRef = 27BAF2EA29CB96C30053A2E8 /* B */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,9 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27BAF2EB29CB96C30053A2E8 /* B in Frameworks */,
 				270DF5D029C92117001DDBCA /* Algorithms in Frameworks */,
-				278A6D4029CE637000A0A95E /* A in Frameworks */,
 				2737064F29C91BC800BAD57A /* C.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,7 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				278A6D4229CE638700A0A95E /* A in Frameworks */,
 				270DF5DD29CA270C001DDBCA /* B in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,8 +227,6 @@
 			name = Test;
 			packageProductDependencies = (
 				270DF5CF29C92117001DDBCA /* Algorithms */,
-				27BAF2EA29CB96C30053A2E8 /* B */,
-				278A6D3F29CE637000A0A95E /* A */,
 			);
 			productName = Test;
 			productReference = 2737061029C58E4900BAD57A /* Test.app */;
@@ -292,7 +284,6 @@
 			name = C;
 			packageProductDependencies = (
 				270DF5DC29CA270C001DDBCA /* B */,
-				278A6D4129CE638700A0A95E /* A */,
 			);
 			productName = C;
 			productReference = 2737064929C91BC800BAD57A /* C.framework */;
@@ -819,18 +810,6 @@
 			productName = Algorithms;
 		};
 		270DF5DC29CA270C001DDBCA /* B */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = B;
-		};
-		278A6D3F29CE637000A0A95E /* A */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = A;
-		};
-		278A6D4129CE638700A0A95E /* A */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = A;
-		};
-		27BAF2EA29CB96C30053A2E8 /* B */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = B;
 		};
